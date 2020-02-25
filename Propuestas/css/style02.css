@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+header{
+    background: #000000;
+    height: 250px;
+    width: 100%;  
+    background-image: url(../images/pills.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+header h1{
+    font-family: 'Marck Script', cursive;
+    padding: 20px 20px;
+    color: #ffffff;
+    float: left;
+    font-size: 3em;
+    box-sizing: border-box;
+}
+header > .search-bar{
+    padding: 20px 40px 20px 20px;
+    float: right;
+    box-sizing: border-box;
+}
+
+header > .search-bar input[type=search]{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 200px;
+}
+
+nav{
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+nav > div.menu-items a { 
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;    
+}
+nav > div.menu-items a:hover{
+    background-color: #777;
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: center
+}
+.contenedor > .contenido{
+    width: 80%;
+    padding-top: 20px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.contenido > .elemento{
+    flex: auto;
+    border: 1px solid lightgrey; 
+    border-radius: 8px;
+    background: white;
+    box-shadow: 5px 5px 10px grey;
+    margin: 20px 20px;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    color: #999999;
+    font-size: 15px;
+    overflow: auto;
+   
+}
+.product-image{
+    width: 100%;
+    text-align: center;
+}
+.product-image >  img{
+    text-align: center;
+    width: 70%;
+}
+
+.boton{
+    padding: 10px 15px;
+    background: #6699cc;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid lightgrey; 
+    border-radius: 8px;  
+    float: right;  
+    text-align: center;
+    margin-top: 20px;
+}
+.boton:hover{
+    background: dodgerblue;
+}
+footer{
+    background: #000000;
+    height: 150px;
+    padding:  20px 40px;
+    box-sizing: border-box;
+}
+footer .social-networks{
+    float: right;
+}
+footer .social-networks img{
+    margin-top:40px;
+    width: 32px;
+}
